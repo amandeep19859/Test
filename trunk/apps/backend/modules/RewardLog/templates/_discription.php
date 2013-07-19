@@ -1,0 +1,1 @@
+<?php echo substr($reward_log->getDescroption(), 0, 40); ?>

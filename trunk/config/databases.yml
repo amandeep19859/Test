@@ -1,0 +1,31 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/07-Databases
+
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+#      dsn:      mysql:host=localhost;dbname=auditoscopiatester
+#      username: root
+#      password: 1234
+#      attributes:
+#       default_table_type:    InnoDB
+#       default_table_collate: utf8_spanish_ci
+#       default_table_charset: utf8
+
+#      bbdd server
+      dsn:      mysql:host=hl164.dinaserver.com;dbname=dmtauditoscopia
+      username: user_dmtaudit
+      password: julio2013
+      attributes:
+       default_table_type:    InnoDB
+       default_table_collate: utf8_spanish_ci
+       default_table_charset: utf8
+
+#      dsn:      mysql:host=localhost;dbname=auditoscopia
+#      username: admin_audi
+#      password: adcopia
+#      attributes:
+#       default_table_type:    InnoDB
+#       default_table_collate: utf8_spanish_ci
+#       default_table_charset: utf8
